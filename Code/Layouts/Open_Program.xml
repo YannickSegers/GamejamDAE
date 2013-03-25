@@ -51,13 +51,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>72</x>
-                        <y>79</y>
+                        <x>207</x>
+                        <y>161</y>
                         <z>0</z>
-                        <width>70</width>
-                        <height>90</height>
+                        <width>91.192108154</width>
+                        <height>81.059646606</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.501915693</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -72,14 +72,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>72</x>
-                        <y>197</y>
+                        <x>77</x>
+                        <y>260</y>
                         <z>0</z>
-                        <width>70</width>
-                        <height>90</height>
+                        <width>89.522987366</width>
+                        <height>57.013286591</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501354992</hotspotX>
+                        <hotspotY>0.502127647</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -93,13 +93,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>71</x>
-                        <y>316</y>
+                        <x>79</x>
+                        <y>375</y>
                         <z>0</z>
-                        <width>70</width>
-                        <height>90</height>
+                        <width>98.142425537</width>
+                        <height>92.182357788</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.502024293</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -114,13 +114,76 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>71</x>
-                        <y>428</y>
+                        <x>78</x>
+                        <y>497</y>
                         <z>0</z>
-                        <width>70</width>
-                        <height>90</height>
+                        <width>83.766342163</width>
+                        <height>91.253837585</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502793312</hotspotX>
+                        <hotspotY>0.502564132</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Icon_skype">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>81</x>
+                        <y>593</y>
+                        <z>0</z>
+                        <width>91.356452942</width>
+                        <height>87.941253662</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Icon_steam">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>212</x>
+                        <y>271</y>
+                        <z>0</z>
+                        <width>107.436019897</width>
+                        <height>95.498687744</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501915693</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Icon_trash">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>78</x>
+                        <y>152</y>
+                        <z>0</z>
+                        <width>73.040229797</width>
+                        <height>89.89566803</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502024293</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
