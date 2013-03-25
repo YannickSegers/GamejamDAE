@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>Hub</layout>
+        <layout active="1">Hub</layout>
         <layout>Open_Program</layout>
         <layout>Model_An_Object</layout>
         <event-sheet>Event sheet 1</event-sheet>
         <event-sheet>Open_Program_Events</event-sheet>
-        <event-sheet active="1">Model_An_Object</event-sheet>
+        <event-sheet>Model_An_Object</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="Project settings" />

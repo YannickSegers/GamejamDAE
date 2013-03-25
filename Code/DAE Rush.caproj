@@ -32,12 +32,12 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">iPhone only</prop>
     </configuration-settings>
-    <object-folder expanded="1">
+    <object-folder expanded="0">
         <object-type name="btn_Prog">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -51,7 +51,7 @@
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -281,21 +281,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.996124" y="0.996124" />
-                            <point x="0.00387597" y="0.996124" />
-                            <point x="0.00387597" y="0.00387597" />
-                            <point x="0.996124" y="0.00387597" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Icon_skype">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
@@ -353,6 +338,82 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="img_bar">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183">
+                        <collision-poly>
+                            <point x="0.0726563" y="0.406114" />
+                            <point x="0.928125" y="0.401747" />
+                            <point x="1" y="0.497817" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.497817" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="img_head">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183">
+                        <collision-poly>
+                            <point x="0.0382813" y="0.213974" />
+                            <point x="0.124219" y="0.497817" />
+                            <point x="0.075" y="0.580786" />
+                            <point x="0.0515625" y="0.497817" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btn_3D">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btn_AMP">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txt_3D">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txt_AMP">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txt_Sleep">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btn_Sleep">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btn_Nap">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txt_Nap">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -374,7 +435,7 @@
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />
-    <files-folder expanded="1">
+    <files-folder expanded="0">
         <file name="btn_bg.png" />
     </files-folder>
 </c2project>

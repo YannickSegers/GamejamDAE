@@ -7,6 +7,10 @@
         <variable constant="0" name="points_prog" static="0" type="number">0</variable>
         <variable constant="0" name="hours_prepro" static="0" type="number">0</variable>
         <variable constant="0" name="points_prepro" static="0" type="number">0</variable>
+        <variable constant="0" name="hours_3D" static="0" type="number">0</variable>
+        <variable constant="0" name="points_3D" static="0" type="number">0</variable>
+        <variable constant="0" name="hours_AMP" static="0" type="number">0</variable>
+        <variable constant="0" name="points_AMP" static="0" type="number">0</variable>
         <event-group description="" title="Buttons">
             <sub-events>
                 <event-block>
@@ -20,6 +24,12 @@
                         <action id="0" name="Set text" type="txt_Prepro">
                             <param id="0" name="Text">&quot;Preproduction&quot; &amp;newline &amp;hours_prepro &amp;&quot; hours remaining&quot; &amp;newline &amp;points_prepro &amp;&quot;/20&quot;</param>
                         </action>
+                        <action id="0" name="Set text" type="txt_Prepro">
+                            <param id="0" name="Text">&quot;3D&quot; &amp;newline &amp;hours_3D &amp;&quot; hours remaining&quot; &amp;newline &amp;points_3D &amp;&quot;/20&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" type="txt_Prepro">
+                            <param id="0" name="Text">&quot;AMP&quot; &amp;newline &amp;hours_AMP &amp;&quot; hours remaining&quot; &amp;newline &amp;points_AMP &amp;&quot;/20&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-group description="" title="Programming">
@@ -32,10 +42,10 @@
                             </conditions>
                             <actions>
                                 <action id="-16" name="Set opacity" type="btn_Prog">
-                                    <param id="0" name="Opacity">100</param>
+                                    <param id="0" name="Opacity">80</param>
                                 </action>
                                 <action id="-16" name="Set opacity" type="txt_Prog">
-                                    <param id="0" name="Opacity">100</param>
+                                    <param id="0" name="Opacity">80</param>
                                 </action>
                                 <action id="4" name="Set font color" type="txt_Prog">
                                     <param id="0" name="Color">rgb(255,255, 255)</param>
@@ -50,13 +60,13 @@
                             </conditions>
                             <actions>
                                 <action id="-16" name="Set opacity" type="btn_Prog">
-                                    <param id="0" name="Opacity">80</param>
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
                                 <action id="-16" name="Set opacity" type="txt_Prog">
-                                    <param id="0" name="Opacity">80</param>
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
                                 <action id="4" name="Set font color" type="txt_Prog">
-                                    <param id="0" name="Color">rgb(90, 90, 90)</param>
+                                    <param id="0" name="Color">rgb(25,0, 0)</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -72,10 +82,10 @@
                             </conditions>
                             <actions>
                                 <action id="-16" name="Set opacity" type="btn_Prepro">
-                                    <param id="0" name="Opacity">100</param>
+                                    <param id="0" name="Opacity">80</param>
                                 </action>
                                 <action id="-16" name="Set opacity" type="txt_Prepro">
-                                    <param id="0" name="Opacity">100</param>
+                                    <param id="0" name="Opacity">80</param>
                                 </action>
                                 <action id="4" name="Set font color" type="txt_Prepro">
                                     <param id="0" name="Color">rgb(255,255, 255)</param>
@@ -90,13 +100,173 @@
                             </conditions>
                             <actions>
                                 <action id="-16" name="Set opacity" type="btn_Prepro">
-                                    <param id="0" name="Opacity">80</param>
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
                                 <action id="-16" name="Set opacity" type="txt_Prepro">
-                                    <param id="0" name="Opacity">80</param>
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
                                 <action id="4" name="Set font color" type="txt_Prepro">
-                                    <param id="0" name="Color">rgb(90, 90, 90)</param>
+                                    <param id="0" name="Color">rgb(25, 0, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" title="3D">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_3D</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_3D">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_3D">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_3D">
+                                    <param id="0" name="Color">rgb(255,255, 255)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_3D</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_3D">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_3D">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_3D">
+                                    <param id="0" name="Color">rgb(25, 0, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" title="AMP">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_AMP</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_AMP">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_AMP">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_AMP">
+                                    <param id="0" name="Color">rgb(255,255, 255)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_AMP</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_AMP">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_AMP">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_AMP">
+                                    <param id="0" name="Color">rgb(25, 0, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" title="Nap">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Nap</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Nap">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Nap">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Nap">
+                                    <param id="0" name="Color">rgb(255,255, 255)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Nap</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Nap">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Nap">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Nap">
+                                    <param id="0" name="Color">rgb(25, 0, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" title="Sleep">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Sleep</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Sleep">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Sleep">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Sleep">
+                                    <param id="0" name="Color">rgb(255,255, 255)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Sleep</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Sleep">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Sleep">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Sleep">
+                                    <param id="0" name="Color">rgb(25, 0, 0)</param>
                                 </action>
                             </actions>
                         </event-block>
