@@ -7,9 +7,9 @@
     <unique-id>2y4q8ni4mgekx</unique-id>
     <saved-with-version>11900</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -98,7 +98,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-		<object-type name="Titel_MiniGame_Text">
+        <object-type name="Titel_MiniGame_Text">
             <plugin id="Text" />
             <instance-variables>
                 <instance-variable name="Variable1" type="string" />
@@ -258,17 +258,19 @@
         </object-type>
     </object-folder>
     <families />
-    <layout-folder expanded="0">
+    <layout-folder expanded="1">
         <layout>Hub.xml</layout>
         <layout>Open_Program.xml</layout>
-		<layout>Begin_Game_Layout.xml</layout>
- 		<layout>Model_An_Object.xml</layout>
+        <layout>Begin_Game_Layout.xml</layout>
+        <layout>Model_An_Object.xml</layout>
+        <layout>test.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Open_Program_Events.xml</event-sheet>
         <event-sheet>Begin_Game_Event.xml</event-sheet>
-		<event-sheet>Model_An_Object.xml</event-sheet>
+        <event-sheet>Model_An_Object.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" />

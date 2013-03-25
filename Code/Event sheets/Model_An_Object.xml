@@ -5,8 +5,8 @@
     <events>
         <event-group collapsed="1" description="All the events for the timer" title="Timer">
             <sub-events>
-                <variable comment="Timer used for your mini game" constant="0" name="Timer" static="0" type="number">6</variable>
-                <variable constant="0" name="Text_Counter" static="0" type="number">0</variable>
+                <variable comment="Timer used for your mini game" constant="0" name="Timer2" static="0" type="number">6</variable>
+                <variable constant="0" name="Text_Counter2" static="0" type="number">0</variable>
                 <event-block>
                     <conditions>
                         <condition id="-2" name="On start of layout" type="System" />
