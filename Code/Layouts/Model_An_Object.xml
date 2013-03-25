@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>Model_An_Object</name>
-    <event-sheet></event-sheet>
+    <event-sheet>Model_An_Object</event-sheet>
     <size>
         <width>1280</width>
         <height>1024</height>
