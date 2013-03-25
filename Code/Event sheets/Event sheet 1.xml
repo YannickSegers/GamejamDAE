@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="hours_prog" static="0" type="number">0</variable>
+        <variable constant="0" name="points_prog" static="0" type="number">0</variable>
+        <variable constant="0" name="hours_prepro" static="0" type="number">0</variable>
+        <variable constant="0" name="points_prepro" static="0" type="number">0</variable>
+        <event-group description="" title="Buttons">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-2" name="On start of layout" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" type="txt_Prog">
+                            <param id="0" name="Text">&quot;Programming&quot; &amp; newline &amp; hours_prog &amp; &quot; hours remaining&quot; &amp; newline &amp; points_prog &amp; &quot;/20&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" type="txt_Prepro">
+                            <param id="0" name="Text">&quot;Preproduction&quot; &amp;newline &amp;hours_prepro &amp;&quot; hours remaining&quot; &amp;newline &amp;points_prepro &amp;&quot;/20&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" title="Programming">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Prog</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Prog">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Prog">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Prog">
+                                    <param id="0" name="Color">rgb(255,255, 255)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Prog</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Prog">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Prog">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Prog">
+                                    <param id="0" name="Color">rgb(90, 90, 90)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" title="Prepro">
+                    <sub-events>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Prepro</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Prepro">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Prepro">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Prepro">
+                                    <param id="0" name="Color">rgb(255,255, 255)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block>
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" type="Mouse">
+                                    <param id="0" name="Object">btn_Prepro</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" type="btn_Prepro">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="-16" name="Set opacity" type="txt_Prepro">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                                <action id="4" name="Set font color" type="txt_Prepro">
+                                    <param id="0" name="Color">rgb(90, 90, 90)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
